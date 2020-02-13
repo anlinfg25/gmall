@@ -12,6 +12,8 @@
     <modules>
         <module>gmall-core</module>
         <module>gmall-admin</module>
+        <module>untitled</module>
+        <module>gmall-sms-interface</module>
     </modules>
 
 </project>
