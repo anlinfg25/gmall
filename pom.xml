@@ -14,6 +14,9 @@
         <module>gmall-admin</module>
         <module>untitled</module>
         <module>gmall-sms-interface</module>
+        <module>gmall-pms-interface</module>
+        <module>gmall-wms-interface</module>
+        <module>gmall-index</module>
     </modules>
 
 </project>

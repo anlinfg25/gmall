@@ -1,0 +1,10 @@
+spring:
+  rabbitmq:
+    host: 39.105.153.243
+    port: 5672
+    virtual-host: /anlin
+    username: anlin
+    password: anlin
+item:
+  rabbitmq:
+    exchange: GMALL-PMS-EXCHANGE
