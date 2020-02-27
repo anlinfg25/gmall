@@ -1,0 +1,38 @@
+server:
+  port: 8090
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  redis:
+    host: 39.105.153.243
+    client-name: requirepass
+    password: anlin22.
+  rabbitmq:
+    host: 39.105.153.243
+    port: 5672
+    virtual-host: /anlin
+    username: anlin
+    password: anlin
+#hystrix的超时时间
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: true
+        isolation:
+          thread:
+            timeoutInMilliseconds: 30000
+#ribbon的超时时间
+ribbon:
+  ReadTimeout: 30000
+  ConnectTimeout: 30000
+
+
+gmall:
+  jwt:
+    pubKeyPath: E:\\ideaWorkSpace\\key\\rsa.pub # 公钥地址
+    cookieName: GMALL_TOKEN
+    userKey: user-key
